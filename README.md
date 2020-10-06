@@ -60,6 +60,11 @@ installed):
     % ./runtest --tls
 
 
+Run redis as following:
+```
+./redis-server --port 9999 --protected-mode no --maxclients 409600 --tcp-backlog 409600 
+```
+
 Fixing build problems with dependencies or cached build options
 ---------
 
